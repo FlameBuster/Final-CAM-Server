@@ -21,7 +21,8 @@ import {
 import { MongoClient } from "mongodb";
 
 const app = express();
-const uri = "mongodb://localhost:27017/test";
+const uri =
+  "mongodb+srv://akulrajeevan8:k9Mufv9GLs8XfcB@cluster0.mvelk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, { useUnifiedTopology: true });
 let database;
 
